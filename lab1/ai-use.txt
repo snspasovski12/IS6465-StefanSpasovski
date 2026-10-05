@@ -1,0 +1,31 @@
+AI Tool Used:
+ChatGPT
+
+Prompts Used:
+I am creating a Peer Tutoring Hub website in GitHub Codespaces. I am creating the web browser interface with HTML, CSS,
+and Bootstrap. At the end we will use PHP to recieve and validate a submitted tutoring request. The repository created will be called lab1 and follow the listed file structure.
+
+As I validate the code, create a repository of the HTML, CSS, Bootstrap, and PHP concepts discussed so I can review them later.
+
+Explain the purpose of the HTML elements and attributes used in my Peer Tutoring Hub pages so I can understand what each line does.
+
+Each page must contain a link that connects every page, so that the user does not necessarily have to click the back button. 
+
+Explain what the PHP opening tag and echo statement do in process-request.php.
+
+Give me test cases I can use to verify that my navigation links, required form fields, responsive layout, and PHP response work correctly.
+
+How AI Was Used:
+I used ChatGPT as an assistant while completing the Peer Tutoring Hub Lab 1. 
+I used it to help explain the HTML, CSS, Bootstrap, and PHP code used in the assignment and to understand the purpose of 
+individual elements, attributes, classes, and statements. I also used ChatGPT to help troubleshoot and review my work as I 
+completed the lab.
+
+Review and Revision:
+I compared the AI explanations and recommendations with the course reading handouts, lecture material, and assignment instructions. 
+Then I entered and tested the code in my GitHub Codespace and reviewed the results in the browser. I did not assume that AI-generated 
+information was correct without reviewing and testing it. 
+One revision I made was adding a "Home" link to each page. This allowed users to navigate back to the main page without using the browser's back button and 
+kept the navigation consistent across the website.
+
+

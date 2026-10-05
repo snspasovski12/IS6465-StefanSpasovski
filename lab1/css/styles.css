@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
+img {
+    border-radius: 0.5rem;
+}
