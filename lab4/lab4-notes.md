@@ -1,9 +1,9 @@
-##Part 1: Run the application
+## Part 1: Run the application
 
 I submitted the tutoring request for IS 6465 and selected the requested variables. After submitting the form, the application displayed a "Request received" confirmation page showing the course, request details, selected topics, and a status of "Pending review." The request was accepted without any validation errors.
 ![Successful tutoring request confirmation](lab4-confirmation.png)
 
-##Part 2: Trace the templates
+## Part 2: Trace the templates
 
 1. What content does header.php provide to every page? 
     header.php file provides the basic HTML structure for each page, including the document type, character encoding, and viewport settings. It also links to Bootstrap and the shared CSS stylesheet and sets the page title to "Peer Tutoring Hub."
@@ -16,7 +16,7 @@ I submitted the tutoring request for IS 6465 and selected the requested variable
 5. Where is the shared CSS file linked?
     The shared CSS file is linked in includes/header.php on line 7. This allows all pages using the shared header to access the same stylesheet without adding the CSS link to each page separately.
 
-##Part 3: Observe the form controls
+## Part 3: Observe the form controls
 1. reason: 
     The reason control uses a textarea that allows the user to enter a description of what they need tutoring assistance with. The field is required and allows up to 500 characters. When submitted, PHP receives the entered text as a single string.
 2. topics[]:
@@ -28,7 +28,7 @@ I submitted the tutoring request for IS 6465 and selected the requested variable
 5. form_name:
     The form_name control is a hidden field that identifies the form being submitted as a tutoring request. PHP receives the value "tutoring_request" as a single string. Although the field is hidden from the user, its value can still be modified and must be validated by PHP.
 
-##Part 4: Test validation behavior
+## Part 4: Test validation behavior
 
 Test: Valid request
 1. Values entered: 
@@ -60,7 +60,7 @@ Test: Past date
 4. Business rule: 
     The preferred date must be a valid date that is not earlier than the current date. Since October 25, 2026, was before October 27, 2026, the application rejected the request.
 
-##Part 5: Review testing and CRUD pages
+## Part 5: Review testing and CRUD pages
 
 1. tests/validation-tests.php
     I opened tests/validation-tests.php and ran the automated validation tests. All 10 tests passed successfully. The tests checked valid, missing, and altered preferred times; multiple, missing, and altered topics; and minimum, maximum, too short, and too long reason lengths. The results indicate that the validation functions returned the expected outcomes for all tested conditions.
